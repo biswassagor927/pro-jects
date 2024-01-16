@@ -1,0 +1,128 @@
+
+@media screen and (max-width:600px) {
+  
+    .Landing-Page-Design,
+    .Container1,
+    .Destination-flex, 
+    .Perfect-Place-container,
+    .Newsletter-container {
+        flex-direction: column;
+    }
+
+    .Container  {
+        width: 100%;
+    }
+
+    .Explore-travel-content {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .Explore-travel-content h3 {
+        padding: 10px;
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .button {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .button button {
+        width: 100%;
+    }
+
+    .img button,
+    .img1 button {
+        width: 28.5em;
+    }
+
+    .Content2 {
+        padding: 10px;
+    }
+    .Our-Popular-Tours{
+        color: chartreuse;
+    }
+    .choose-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .popular1 img {
+        width: 100%;
+    }
+
+    .Letter-1 {
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .Letter-1 h3, .Letter-1 p {
+        width: 100%;
+        margin: 40px 0;
+        text-align: center;
+
+    }
+    .img-box-3, .img-box-1, .img-box-2{
+       margin: 0 auto;
+        width: 80%;
+    }
+
+    .Destination1 img {
+        width: 435px;
+        height: 220px;
+    }
+    .Destination-flex{
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .img-text{
+        position: relative;
+        left: 150px;
+        text-align: center;
+        bottom: 120px;
+        color: #FFF;
+    }
+    .discount-img-content,
+    .discount-img-content-2{
+        width: 100%;
+    }
+    .discount-img-box,
+    .discount-img-box-2{
+        width: 400px;
+        height: 280px;
+        padding: 50px;
+        border-radius: 16px;
+        left: 20px;
+        top: 100px;
+    }
+    .Newsletter-img img {
+        width: 100%;
+    }
+    .save-up {
+        width: 180px;
+        height: 60px;
+        transform: rotate(-25deg);
+        border-radius: 16px;
+        padding: 10px;
+        bottom: 130px;
+        left: 220px;
+    }
+    .Newsletter1{
+        width: 95%;
+        padding: 10px;
+    }
+    .Newsletter1 form>button {
+        width: 805;
+    }
+    footer{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 0;
+    }
+    .footer{
+        width: 90%;
+        padding: 10px;
+    }
+}
